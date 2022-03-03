@@ -6,7 +6,7 @@ function existePez(listaPeces, pezBuscado) {
     let pezEncontrado = false
     let i = 0
 
-    while(!pezEncontrado && i<listapeces.length-1) {
+    while(!pezEncontrado && i<listaPeces.length) {
         pezEncontrado = (listaPeces[i] == pezBuscado) 
         i++      
     }
@@ -24,8 +24,8 @@ console.log("He encontrado al pez?: " + he_encontrado_al_pez)
  * Esta functión debería devolver "true"; puesto que "Estrella"; efectivamente está en el array.
  * Sin embargo devuelve false. Hay dos errores:
  * 
- * 1. Un error que impide ejecutar el código. Vigila la información que arroja el TERMINAL
+ * 1. Un error que impide ejecutar el código. Vigila la información que arroja el TERMINAL listaPeces en el while estaba mal escrito
  * 2. Un error lógico; que hace que el código no devuelve lo que debería devolver.
- * 
+ *  se le resta -1 a la lenght the lista peces, por lo tanto no obtenemos "estrella"
  * Pon "chivatos" en el código para aydarte a averiguar que está sucediendo; o usa el depurador de Visual Studio para ejecutar el código paso a paso
  */

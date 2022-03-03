@@ -12,6 +12,7 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Sale -1 uno porque indexOf es case sensitive y muestra la posicion en negativo de lo que cree que estamos buscando
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")
